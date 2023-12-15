@@ -20,6 +20,10 @@ Este repositorio explora la aplicación de metaheurísticas para abordar problem
 
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=edujbarrios_Metaheuristics-for-Logistics&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=edujbarrios_Metaheuristics-for-Logistics)
 
+-------------------------
+
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/edujbarrios/Metaheuristics-for-Logistics/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/edujbarrios/Metaheuristics-for-Logistics/tree/master)
+
 ## 📋 Descripción de problemas
 
 ### 1. BPP (Problema de Carga de Contenedores)
