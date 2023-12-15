@@ -6,19 +6,11 @@ Este repositorio explora la aplicación de metaheurísticas para abordar problem
 
 [![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/summary/new_code?id=edujbarrios_Metaheuristics-for-Logistics)
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=edujbarrios_Metaheuristics-for-Logistics&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=edujbarrios_Metaheuristics-for-Logistics)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=edujbarrios_Metaheuristics-for-Logistics&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=edujbarrios_Metaheuristics-for-Logistics) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=edujbarrios_Metaheuristics-for-Logistics&metric=coverage)](https://sonarcloud.io/summary/new_code?id=edujbarrios_Metaheuristics-for-Logistics) [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=edujbarrios_Metaheuristics-for-Logistics&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=edujbarrios_Metaheuristics-for-Logistics)
 
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=edujbarrios_Metaheuristics-for-Logistics&metric=coverage)](https://sonarcloud.io/summary/new_code?id=edujbarrios_Metaheuristics-for-Logistics)
-
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=edujbarrios_Metaheuristics-for-Logistics&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=edujbarrios_Metaheuristics-for-Logistics)
-
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=edujbarrios_Metaheuristics-for-Logistics&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=edujbarrios_Metaheuristics-for-Logistics)
-
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=edujbarrios_Metaheuristics-for-Logistics&metric=bugs)](https://sonarcloud.io/summary/new_code?id=edujbarrios_Metaheuristics-for-Logistics)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=edujbarrios_Metaheuristics-for-Logistics&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=edujbarrios_Metaheuristics-for-Logistics) [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=edujbarrios_Metaheuristics-for-Logistics&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=edujbarrios_Metaheuristics-for-Logistics) [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=edujbarrios_Metaheuristics-for-Logistics&metric=bugs)](https://sonarcloud.io/summary/new_code?id=edujbarrios_Metaheuristics-for-Logistics)
 
 [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=edujbarrios_Metaheuristics-for-Logistics&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=edujbarrios_Metaheuristics-for-Logistics)
-
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=edujbarrios_Metaheuristics-for-Logistics&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=edujbarrios_Metaheuristics-for-Logistics)
 
 -------------------------
 
