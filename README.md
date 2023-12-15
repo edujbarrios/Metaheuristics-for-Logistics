@@ -22,7 +22,11 @@ Este repositorio explora la aplicación de metaheurísticas para abordar problem
 
 -------------------------
 
+### CircleCI
+
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/edujbarrios/Metaheuristics-for-Logistics/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/edujbarrios/Metaheuristics-for-Logistics/tree/master)
+
+-------------------------
 
 ## 📋 Descripción de problemas
 
