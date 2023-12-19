@@ -69,4 +69,8 @@ public abstract class LoadingAbsractMHeuristics {
     protected void printBestSolution() {
         System.out.println("Final Solution :\n" + this.solution.toString(true, true) + "\n");
     }
+
+    public BPPcontainerSolution getSolution() {
+        return solution;
+    }
 }
