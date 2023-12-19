@@ -34,17 +34,15 @@ class BPPGraspTest {
 **/
 import es.ull.concrete.Problems.containerBPP.BPPcontainerProblem;
 import es.ull.concrete.metaheuristics.containerBPP.BPPGrasp;
-import es.ull.concrete.solutions.BPPcontainerSolution;
 import es.ull.abstracts.problem.ILoadingProblems;
-import es.ull.abstracts.solution.ILoadingSolutions;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.*;
 
 public class BPPGraspTest {
 
+    private static final long MAX_EXECUTION_TIME = 10;
     private ILoadingProblems problem;
 
     @Before
@@ -55,7 +53,7 @@ public class BPPGraspTest {
 
     @Test
     public void testBPPGraspConstruction() {
-        BPPGrasp bppGrasp = new BPPGrasp(problem,0.5, 10);
+        BPPGrasp bppGrasp = new BPPGrasp(problem, 0.5, 10);
         assertNotNull(bppGrasp);
     }
 
@@ -65,12 +63,10 @@ public class BPPGraspTest {
         assertNotNull(bppGrasp);
 
         // Asumo que BPPGrasp tiene un método solve que modifica la solución
-        //ILoadingSolutions solution = new BPPcontainerSolution(new int[problem.getNumItems()], problem);
         bppGrasp.solve(problem);
 
         // Puedes realizar aserciones según las necesidades de tu aplicación
-        // Por ejemplo, podrías verificar si la solución cumple con ciertas restricciones o tiene un costo aceptable
-        // assertEquals(expectedResult, actualResult);
+        // Por ejemplo, verificar propiedades específicas de la solución o el problema
     }
 
     @Test
@@ -80,7 +76,6 @@ public class BPPGraspTest {
 
         // Asegurar que el algoritmo se ejecuta en un tiempo razonable para un conjunto de datos específico
         long startTime = System.currentTimeMillis();
-        //ILoadingSolutions solution = new BPPcontainerSolution(new int[problem.getNumItems()], problem);
         bppGrasp.solve(problem);
         long endTime = System.currentTimeMillis();
 
@@ -88,7 +83,20 @@ public class BPPGraspTest {
         System.out.println("BPPGrasp execution time: " + executionTime + " milliseconds");
 
         // Puedes establecer un límite de tiempo máximo y verificar si la ejecución fue lo suficientemente rápida
-        // assertTrue(executionTime < MAX_EXECUTION_TIME);
+        assertTrue(executionTime < MAX_EXECUTION_TIME);
+    }
+
+    @Test
+    public void testBPPGraspWithEmptyProblem() {
+        ILoadingProblems emptyProblem = new BPPcontainerProblem();
+        BPPGrasp bppGrasp = new BPPGrasp(emptyProblem, 0.5, 10);
+        assertNotNull(bppGrasp);
+
+        // Asegurar que el método solve maneje correctamente un problema vacío
+        bppGrasp.solve(emptyProblem);
+
+        // Puedes realizar más aserciones según las necesidades de tu aplicación
+        // Por ejemplo, verificar propiedades específicas de la solución o el problema
     }
 }
 
